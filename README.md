@@ -1,6 +1,6 @@
 # Methyl-Seq-DataAnalysis
 
-Basic facts/parameters:
+Basic facts/parameters: 2016-2017, Upstate Molecular Biology Core
 Library Prep：
 TruSeq DNA LT kit
 SureSelect DNA Methylation kit
