@@ -11,6 +11,7 @@ __Sequencing:__
 ### 1. Review the seq data (.fastq) with fastqc
 ### 2. QualityTrim with cutadapt
 ### 3. AdapterTrim with cutadapt
+Methylation's effects on Adapter Triming: adapter might contain converted nucleic acid. 
 
 ## II. Mapping/Alignment
 ## III. Methylation Calling
