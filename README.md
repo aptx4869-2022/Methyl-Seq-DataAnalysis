@@ -1,10 +1,10 @@
 # Methyl-Seq-DataAnalysis
 
---Basic facts/parameters:-- *2016-2017, Upstate Molecular Biology Core*  
---Library Prep:--  
+__Basic facts/parameters:__ *2016-2017, Upstate Molecular Biology Core*  
+__Library Prep:__  
 *TruSeq DNA LT kit;  
 SureSelect DNA Methylation kit;*  
---Sequencing：--  
+__Sequencing:__  
 *Illumina NextSeq;*  
 
 ## I. QC
