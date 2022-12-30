@@ -2,10 +2,10 @@
 
 __Basic facts/parameters:__ *2016-2017, Upstate Molecular Biology Core*  
 __Library Prep:__  
-*TruSeq DNA LT kit;  
-SureSelect DNA Methylation kit;*  
+*TruSeq DNA LT kit  
+SureSelect DNA Methylation kit*  
 __Sequencing:__  
-*Illumina NextSeq;*  
+*Illumina NextSeq*  
 
 ## I. QC
 ### 1. Review the seq data (.fastq) with fastqc
