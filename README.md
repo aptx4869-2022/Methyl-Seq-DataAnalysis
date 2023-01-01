@@ -10,7 +10,9 @@ __Sequencing:__
 ## I. QC
 ### 1. Review the seq data (.fastq) with fastqc
 ### 2. QualityTrim with cutadapt
-``` cutadapt nextseq-trim=30 -m 20 --max-n 3```
+```bash
+cutadapt nextseq-trim=30 -m 20 --max-n 3 #Bash
+```
 ### 3. AdapterTrim with cutadapt
 Methylation's effects on Adapter Triming: adapter might contain converted nucleic acid. 
 
