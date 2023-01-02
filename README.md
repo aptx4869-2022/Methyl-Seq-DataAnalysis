@@ -62,6 +62,12 @@ Read2 Adapter to Trim(used Truseq Dual Index): AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
 #### 3.3 Methylation's effects  
 Methylation's effects on Adapter Triming: adapter might contain converted nucleic acid. 
 
+Other trim tools；
+fastp： https://github.com/OpenGene/fastp  
+Written with C++, so fast processing; 
+More functions, including several useful and valuable functions. 
+
+
 ## II. Mapping/Alignment
 ## III. Methylation Calling
 ## IV. Differential Analysis
