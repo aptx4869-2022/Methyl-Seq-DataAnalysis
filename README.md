@@ -61,6 +61,12 @@ Read2 Adapter to Trim(used Truseq Dual Index): AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
 #### 3.2 Pair-end trim  
 #### 3.3 Methylation's effects  
 Methylation's effects on Adapter Triming: adapter might contain converted nucleic acid. 
+__Zymo Bisulfite Gold Kit:__  Primer design for PCR amplification after bisulfite conversion(BC)   
+__Agilent Targetted Bisulfite Sequencing:__ Adapter ligation before BC  
+__Agilent PBAT:__ Adapter ligation after BC  
+__Zymo RRBS:__  Adapter ligation before BC  
+__Zymo WGBS:__  Adapter ligation after BC
+
 
 ### 4. Other trim tools
 #### 4.1 fastp： https://github.com/OpenGene/fastp  
@@ -73,5 +79,7 @@ __Mspl digested-RRBS:__ Mspl-digested Reduced Representation Bisulfite Sequencin
 
 
 ## II. Mapping/Alignment
+
+
 ## III. Methylation Calling
 ## IV. Differential Analysis
