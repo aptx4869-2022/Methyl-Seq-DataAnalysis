@@ -76,6 +76,7 @@ More functions, including several useful and valuable functions.
 #### 4.2 trim-galore https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/Trim_Galore_User_Guide.md  
 Cutadapt + Fastqc + Mspl digested-RRBS  
 __Mspl digested-RRBS:__ Mspl-digested Reduced Representation Bisulfite Sequencing
+__RRBS Guide:__ contains contents about OT,OB, CTOT, CTOB 
 
 
 ## II. Mapping/Alignment
