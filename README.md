@@ -82,6 +82,10 @@ __RRBS Guide:__ contains contents about OT,OB, CTOT, CTOB
 
 
 ## II. Mapping/Alignment
+SJTU HPC Bismark https://docs.hpc.sjtu.edu.cn/app/bioinformatics/bismark.html  
+Bismark https://github.com/FelixKrueger/Bismark  
+Bismark User Guide https://github.com/FelixKrueger/Bismark/tree/master/Docs  
+Bowtie2 https://github.com/BenLangmead/bowtie2
 
 
 ## III. Methylation Calling
