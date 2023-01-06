@@ -8,7 +8,9 @@ __Sequencing:__
 *Illumina NextSeq*  
 
 ## I. QC
-### 1. Review the seq data (.fastq) with fastqc
+### 1. Review the seq data (.fastq) with fastqc  
+https://github.com/s-andrews/FastQC
+
 ### 2. QualityTrim with cutadapt
 ```bash
 cutadapt nextseq-trim=30 -m 20 --max-n 3
