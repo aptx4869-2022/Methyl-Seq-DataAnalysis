@@ -87,6 +87,14 @@ Bismark https://github.com/FelixKrueger/Bismark
 Bismark User Guide https://github.com/FelixKrueger/Bismark/tree/master/Docs  
 Bowtie2 https://github.com/BenLangmead/bowtie2
 
+(IX) Notes about diff lib types and commercial kits
+RRBS
+PBAT
+Single Cell BS-Seq (scBS-Seq)
+TruSeq DNA methylation kit (formerly Epigenome)
+Zymo Pico kit
+Swift
+NEB EM-Seq
 
 ## III. Methylation Calling
 Plotly: Graphic Ploting https://plotly.com/javascript/
