@@ -96,6 +96,21 @@ Zymo Pico kit
 Swift
 NEB EM-Seq
 
+```bismark_genome_preparation ```
+```bismark```
+```bismark_methylation_extraction```
+
+### 1. Bismark genome preparation
+Download reference genome
+Prepared reference genome (Output files)  
+
+### 2. Bismark
+Paremeters related
+
+### 3. Bismark methylation extraction
+bedGraph format
+https://blog.csdn.net/u011262253/article/details/109369089
+
 ## III. Methylation Calling
 Plotly: Graphic Ploting https://plotly.com/javascript/
 
