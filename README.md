@@ -106,7 +106,9 @@ Prepared reference genome (Output files)
 
 ### 2. Bismark
 Paremeters related
-__Visualization:__ Monkseq
+__Visualization:__ SeqMonk 
+https://github.com/s-andrews/seqmonk/issues/  
+https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/  
 
 ### 3. (Optional) Deduplication
 
