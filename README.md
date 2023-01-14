@@ -106,8 +106,11 @@ Prepared reference genome (Output files)
 
 ### 2. Bismark
 Paremeters related
+__Visualization:__ Monkseq
 
-### 3. Bismark methylation extraction
+### 3. (Optional) Deduplication
+
+### 4. Bismark methylation extraction
 bedGraph format
 https://blog.csdn.net/u011262253/article/details/109369089
 
