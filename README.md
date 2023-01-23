@@ -105,8 +105,8 @@ Download reference genome
 Prepared reference genome (Output files)  
 
 ### 2. Bismark
-Paremeters related
-__Visualization:__ SeqMonk 
+Paremeters related  
+__Visualization:__ SeqMonk   
 https://github.com/s-andrews/seqmonk/issues/  
 https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/  
 SeqMonk Linux install had the error message:
@@ -125,13 +125,28 @@ Command is: /home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/
 
 Exception: java.lang.NoClassDefFoundError thrown from the UncaughtExceptionHandler in thread "main"
 ```
-See solutions: https://github.com/s-andrews/SeqMonk/issues/241, especially the solution is https://docs.alliancecan.ca/wiki/Installing_software_in_your_home_directory#Installing_binary_packages
+See solutions: https://github.com/s-andrews/SeqMonk/issues/241, especially the solution is a patch  
 ```
 I obtained feedback from our cluster tech support team and was pointed to a solution that worked: to patch the bundled java (.../SeqMonk/jre/lib/) with the paths to the libraries. It is described here, though I must admit I don't fully understand the process:
 https://docs.computecanada.ca/wiki/Installing_software_in_your_home_directory#Installing_binary_packages
 
 But it works. In the end, the solution was not to change anything with the SeqMonk release but instead to tell it where to find the library.
 ```
+https://docs.alliancecan.ca/wiki/Installing_software_in_your_home_directory#Installing_binary_packages  
+the wiki paragraph:
+```
+If you install pre-compiled binaries in your home directory (for example Miniconda) they may fail using errors such as /lib64/libc.so.6: version `GLIBC_2.18' not found. Often such binaries can be patched using our setrpaths.sh script, using the syntax setrpaths.sh --path path [--add_origin] where path refers to the directory where you installed that software. This script will make sure that the binaries use the correct interpreter, and search for the libraries they are dynamically linked to in the correct folder. The option --add_origin will also add $ORIGIN to the RUNPATH. This is sometimes helpful if the library cannot find other libraries in the same folder as itself.
+
+Note:
+
+Some archive file, such as java (.jar files) or python wheels (.whl files) may contain shared objects that need to be patched. The setrpaths.sh script extracts and patches these objects and updates the archive.
+```
+
+However I don't have access to the `setrpath.sh` file nor ComputeCanada's service, so I am trying to fix the issue by learning `LD_LIRBARY_PATH`.
+```
+Great, glad to hear you have things working! It sounds like you may have had the correct library but in a location where SeqMonk wouldn't automatically look. I guess your IT script updated the LD_LIRBARY_PATH so that it was found correctly.
+```
+
 
 ### 3. (Optional) Deduplication
 
