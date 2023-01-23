@@ -109,6 +109,23 @@ Paremeters related
 __Visualization:__ SeqMonk 
 https://github.com/s-andrews/seqmonk/issues/  
 https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/  
+SeqMonk Linux install had the error message:
+```
+CLASSPATH is : /home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/SeqMonk:/home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/SeqMonk/htsjdk.jar:/home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/SeqMonk/Jama-1.0.2.jar:/home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/SeqMonk/commons-math3-3.5.jar
+Java interpreter is '/home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/SeqMonk/jre/bin/java'
+openjdk version "13.0.2" 2020-01-14
+OpenJDK Runtime Environment AdoptOpenJDK (build 13.0.2+8)
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 13.0.2+8, mixed mode, sharing)
+
+Prefs file is at: /home/data/t180315/seqmonk_prefs.txt
+Memory ceiling is 10240
+Raw physical memory is 1031876
+Correcting for VM actual requested allocation for 10240 is 10240
+Command is: /home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/SeqMonk/jre/bin/java -Xss4m -Xmx10240m -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true uk.ac.babraham.SeqMonk.SeqMonkApplication 
+
+Exception: java.lang.NoClassDefFoundError thrown from the UncaughtExceptionHandler in thread "main"
+```
+See solutions: https://github.com/s-andrews/SeqMonk/issues/241, especially the solution is https://docs.alliancecan.ca/wiki/Installing_software_in_your_home_directory#Installing_binary_packages
 
 ### 3. (Optional) Deduplication
 
