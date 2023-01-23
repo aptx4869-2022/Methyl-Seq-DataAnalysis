@@ -126,6 +126,12 @@ Command is: /home/data/t180315/ProjAna/Rat-16-ETOH-MethylSeq-2017/Visualization/
 Exception: java.lang.NoClassDefFoundError thrown from the UncaughtExceptionHandler in thread "main"
 ```
 See solutions: https://github.com/s-andrews/SeqMonk/issues/241, especially the solution is https://docs.alliancecan.ca/wiki/Installing_software_in_your_home_directory#Installing_binary_packages
+```
+I obtained feedback from our cluster tech support team and was pointed to a solution that worked: to patch the bundled java (.../SeqMonk/jre/lib/) with the paths to the libraries. It is described here, though I must admit I don't fully understand the process:
+https://docs.computecanada.ca/wiki/Installing_software_in_your_home_directory#Installing_binary_packages
+
+But it works. In the end, the solution was not to change anything with the SeqMonk release but instead to tell it where to find the library.
+```
 
 ### 3. (Optional) Deduplication
 
