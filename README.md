@@ -159,8 +159,14 @@ Great, glad to hear you have things working! It sounds like you may have had the
 [A reference about `LD_LIRBARY_PATH` (not quite understand):](https://www.cnblogs.com/kex1n/p/5993498.html#:~:text=linux%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8FLD_LIBRARY_PATH.%20LIBRARY_PATH%E5%92%8CLD_LIBRARY_PATH%E6%98%AFLinux%E4%B8%8B%E7%9A%84%E4%B8%A4%E4%B8%AA%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%EF%BC%8C%E4%BA%8C%E8%80%85%E7%9A%84%E5%90%AB%E4%B9%89%E5%92%8C%E4%BD%9C%E7%94%A8%E5%88%86%E5%88%AB%E5%A6%82%E4%B8%8B%EF%BC%9A.%20LIBRARY_PATH%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%94%A8%E4%BA%8E%E5%9C%A8%E7%A8%8B%E5%BA%8F%E7%BC%96%E8%AF%91%E6%9C%9F%E9%97%B4%E6%9F%A5%E6%89%BE%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93%E6%97%B6%E6%8C%87%E5%AE%9A%E6%9F%A5%E6%89%BE%E5%85%B1%E4%BA%AB%E5%BA%93%E7%9A%84%E8%B7%AF%E5%BE%84%EF%BC%8C%E4%BE%8B%E5%A6%82%EF%BC%8C%E6%8C%87%E5%AE%9Agcc%E7%BC%96%E8%AF%91%E9%9C%80%E8%A6%81%E7%94%A8%E5%88%B0%E7%9A%84%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93%E7%9A%84%E7%9B%AE%E5%BD%95%E3%80%82.,%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95%E5%A6%82%E4%B8%8B%EF%BC%88%E5%85%B6%E4%B8%AD%EF%BC%8CLIBDIR1%E5%92%8CLIBDIR2%E4%B8%BA%E4%B8%A4%E4%B8%AA%E5%BA%93%E7%9B%AE%E5%BD%95%EF%BC%89%EF%BC%9A.%20export%20LIBRARY_PATH%3DLIBDIR1%3ALIBDIR2%3A%24LIBRARY_PATH.)
 
 __Finally fixed by using Xmanager (30 days of free-trial, 2490 Yuan per year)__
+Failled install R package dependencies. Error message has been sent to the Barhama team and waiting the feedback.   
+CPU use reach 55, which is over the limit (48 CPU + 200G memory on biotrainee server) and got warning. Seems that I have to use local PC SeqMonk.
 
-__4.2.2 First Use__
+__4.2.2 First Use/Initial Setup__
+Configure two folders: SeqMonk cache and genome folder.  
+cache: D:/Program Files2
+genome：E:/博士论文/Rat-16-ETOH-2017/Visualization/SeqMonk
+
 
 
 ### 3. (Optional) Deduplication
