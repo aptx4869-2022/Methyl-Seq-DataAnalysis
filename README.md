@@ -114,8 +114,8 @@ Paremeters related
 https://github.com/s-andrews/seqmonk/issues/  
 https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/  
 Download and Install https://www.bioinformatics.babraham.ac.uk/projects/download.html#seqmonk  
-User Guide /Tutorial https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/Help/  
-Video Tutorial https://www.youtube.com/user/BabrahamBioinf  
+User Guide /Tutorial https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/Help/ __(Don't read the initial part, especially the data group and replicate part. Can read quantification part, see specific explaination)__  
+Video Tutorial https://www.youtube.com/user/BabrahamBioinf __(Recommand, very helpful)__  
 Training Course https://www.bioinformatics.babraham.ac.uk/training.html#seqmonk
 
 __4.2.1 Download and Install__ 
