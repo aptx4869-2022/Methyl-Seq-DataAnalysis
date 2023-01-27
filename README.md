@@ -106,8 +106,10 @@ Prepared reference genome (Output files)
 
 ### 2. Bismark
 Paremeters related  
+Output: .bam file
 
 ### 3. Bismark_Methyl_Extraction
+Output: .txt, bedGraph, bismark.cov
 
 ### 4. Visualization
 #### 4.2 SeqMonk     
@@ -167,6 +169,14 @@ Configure two folders: SeqMonk cache and genome folder.
 cache: D:/Program Files2
 genome：E:/博士论文/Rat-16-ETOH-2017/Visualization/SeqMonk
 
+__4.2.3 Design, Logic and Purpose__
+Probe > Quantification > (Filtering > Quantification) > Plot  
+
+__Probe:__ Interested Regions, richer than regular/conventional mapping software, which only cares about genes  
+__Quantification:__ 1. read counts, over or around features; 2. normalization  
+__Pipelines:__ RNA-Seq (read counts) and some single bp comparison  
+__Filtering:__
+__Plot:__
 
 
 ### 3. (Optional) Deduplication
