@@ -163,12 +163,14 @@ Great, glad to hear you have things working! It sounds like you may have had the
 __Finally fixed by using Xmanager (30 days of free-trial, 2490 Yuan per year)__
 Failled install R package dependencies. Error message has been sent to the Barhama team and waiting the feedback.   
 CPU use reach 55, which is over the limit (48 CPU + 200G memory on biotrainee server) and got warning. Seems that I have to use local PC SeqMonk.
-
+  
+  
 __4.2.2 First Use/Initial Setup__
 Configure two folders: SeqMonk cache and genome folder.  
 cache: D:/Program Files2
 genome：E:/博士论文/Rat-16-ETOH-2017/Visualization/SeqMonk
-
+  
+    
 __4.2.3 Design, Logic and Purpose__
 Probe > Quantification > (Filtering > Quantification) > Plot  
 
