@@ -176,9 +176,11 @@ Probe > Quantification > (Filtering > Quantification) > Plot
 
 __Probe:__ Interested Regions, richer than regular/conventional mapping software, which only cares about genes  
 __Quantification:__ 1. read counts, over or around features; 2. normalization  
-__Pipelines:__ RNA-Seq (read counts) and some single bp comparison  
-__Filtering:__
-__Plot:__
+__Pipelines:__ RNA-Seq (read counts) and some single bp comparison (for BS-Seq or SNP)  
+__Filtering:__ 1. Count-based statistic tests and strand-ratio-based statistics (replicated data vs unreplicated data(windowed; or modeling/assumptions:Chi-squre, Binomial, Monte Carlo)); 2. real filters(position, probe length, probe/freature name).  
+__Plot:__ Overview (histogram, distribution), Correlation, Comparison, position-value view, QC
+
+Quantification (include Pipelines) Filtering and Plots show something common data analysis often used in high-throughput data. 
 
 
 ### 3. (Optional) Deduplication
