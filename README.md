@@ -187,9 +187,18 @@ Quantification (include Pipelines) Filtering and Plots show something common dat
 
 ### 4. Bismark methylation extraction
 bedGraph format
-https://blog.csdn.net/u011262253/article/details/109369089
+https://blog.csdn.net/u011262253/article/details/109369089  
+
+__--------------------------------------------------------------------------------------------------------------------------------__
+After alignment, high-throughput experiments for different purposes will have data analysed differently. 
+Count based: RNA-Seq transcriptom analysis, miRNA-Seq, lnRNA-Seq, Chip-Seq, CNV  
+Splicing variance
+SNP based: SNP(exon-Seq), BS-Seq  
+
+
 
 ## III. Methylation Calling
 Plotly: Graphic Ploting https://plotly.com/javascript/
 
 ## IV. Differential Analysis
+Seqmonk covered this part as well. 
