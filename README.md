@@ -45,6 +45,10 @@ Note the order of the cutadapter operation:
 #### 2.2 Parameters related to quality trim：  
 Filter based on the max N allowed: 3 is usually a good number. 
 
+![1685699658648](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/214f5937-9f48-4518-81c7-1be61656cb3c)
+
+
+
 ### 3. AdapterTrim with cutadapt
 ```bash
 cutadapt -a AGATYGGAAGAGCACAYGTCTGAACTCCAGTCA -A  AGATCRGAAGAGCRTCRTGTAGGGAAAGAGTGT -o CAoutS10-1.fastq.gz -p CAoutS10-2.fastq.gz DMR-10_S10_R1_001.fastq DMR-10_S10_R2_001.fastq.gz
