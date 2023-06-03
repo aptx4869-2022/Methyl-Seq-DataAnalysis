@@ -57,10 +57,16 @@ cutadapt -a AGATYGGAAGAGCACAYGTCTGAACTCCAGTCA -A  AGATCRGAAGAGCRTCRTGTAGGGAAAGAG
 __Need to understand:__  
 1. the entire procedure (especially connections from step to step) of __Illumina library prep (adapter ligation) and sequencing;__   
 2. difference of different Illumina library prep kits.
+
 Best reference material: 
 1) Tufts U, first few parts is good, starts to have mistakes from flowcell portion and sequncing
 2) __"4 ^About Illumina Seq Libraries.pdf"__ mark mark
+![1685766447206](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/dd064849-7573-4bff-9d99-d59c5b5c58fc)
+![1685766478584](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/f949b2e2-1456-4b8f-adde-de4b598d2a89)
+
 ![4 About Illumina Seq libraries-full seq](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/e302d2f6-5806-4f40-8bb0-93e282462b96)
+![1685766548737](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/fbeb20f7-5fcd-4828-b8ec-d7360d600b60)
+![1685766583081](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/d63a3c25-35b7-4214-8cea-75570e7f3184)
 
 
 ```
