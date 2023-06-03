@@ -59,7 +59,7 @@ __Need to understand:__
 2. difference of different Illumina library prep kits.
 Best reference material: 
 1) Tufts U, first few parts is good, starts to have mistakes from flowcell portion and sequncing
-2) __"4 ^About Illumina Seq Libraries.pdf"__mark mark___
+2) __"4 ^About Illumina Seq Libraries.pdf"__ mark mark
 ![4 About Illumina Seq libraries-full seq](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/e302d2f6-5806-4f40-8bb0-93e282462b96)
 
 
