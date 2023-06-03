@@ -57,12 +57,21 @@ cutadapt -a AGATYGGAAGAGCACAYGTCTGAACTCCAGTCA -A  AGATCRGAAGAGCRTCRTGTAGGGAAAGAG
 __Need to understand:__  
 1. the entire procedure (especially connections from step to step) of __Illumina library prep (adapter ligation) and sequencing;__   
 2. difference of different Illumina library prep kits.
+Best reference material: 
+1) Tufts U, first few parts is good, starts to have mistakes from flowcell portion and sequncing
+2) __"4 ^About Illumina Seq Libraries.pdf"__mark mark___
+![4 About Illumina Seq libraries-full seq](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/e302d2f6-5806-4f40-8bb0-93e282462b96)
+
 
 ```
 Qian's Methyl-Seq Exp： *used the TruSeq DNA HT kit*
 Read1 Adapter to Trim: AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
 Read2 Adapter to Trim(used Truseq Dual Index): AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
 ```
+
+Adapter ligation methods (300 methods)
+https://github.com/Teichlab/scg_lib_structs
+
 
 #### 3.2 Pair-end trim  
 #### 3.3 Methylation's effects  
