@@ -69,6 +69,9 @@ Best reference material:
 ![1685766583081](https://github.com/aptx4869-2022/Methyl-Seq-DataAnalysis/assets/96965577/d63a3c25-35b7-4214-8cea-75570e7f3184)
 
 
+Illumia Knowledge book https://knowledge.illumina.com/
+
+
 ```
 Qian's Methyl-Seq Exp： *used the TruSeq DNA HT kit*
 Read1 Adapter to Trim: AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
